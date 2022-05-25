@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* css reset */
+        *,*::before,*::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        }
+                
+        
+            /* left , top, bottom, right, width and height */
+            /* ems, pixels. %,  vh - % viewport height  */
+
+        
+        body{height:100vh;
+            text-align:center;            
+            color:white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:3vh ;
+            overflow:hidden;
+        }
+              
+        .blue{background-color:#c53ec5AA;}
+        
+        
+        .pad{margin:1%;padding:10px;border-radius:10px;border:1px solid black;box-shadow:10px 10px 10px rgba(0,0,0,.6);overflow:hidden;}
+        
+        #header{height:10%; }
+        #nav{height:10%;}        
+        #middle{display:flex;height:60%;}  
+        #left-content{width:20%;}
+        #main{width:60%;}
+        #right-content{width:20%;}
+        #footer{height:10%;}
+    </style>
+    <header class="blue pad" id="header">Header</header>
+    <nav class="blue pad" id="nav">Nav</nav>
+    <div style="position:absolute;font-size:20em;color:red;z-index:5">hello</div>
+    <div id="middle" style="position:absolute;z-index:10">
+        <aside class="blue pad" id="left-content">Left</aside>
+        <main class="blue pad" id="main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</main>
+        <aside class="blue pad" id="right-content">Right</aside>
+    </div>
+    <footer class="blue pad" id="footer">Footer</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
